@@ -2,15 +2,15 @@ flowchat
 ![image](https://user-images.githubusercontent.com/115876367/202967152-db585107-0312-44fc-9e10-a575bd95c7f9.png)
 Tamilan program
 ![Screenshot (16)](https://user-images.githubusercontent.com/115876367/202967527-23ad4fc9-4d99-4693-ac63-cc71e40b6dbc.png)
-from prettytable import PrettyTable Membuat header table menggunakan prettytable. Variabel import berfungsi untuk memanggil file lain di dalam satu module yang berbeda.
+ 1.from prettytable import PrettyTable Membuat header table menggunakan prettytable. Variabel import berfungsi untuk memanggil file lain di dalam satu module yang berbeda.
 
-print("Program Input Data Mahasiswa") print() untuk menampilkan kalimat yang di input.
+ 2.print("Program Input Data Mahasiswa") print() untuk menampilkan kalimat yang di input.
 
-tabelNama = PrettyTable(["No" ,"Nama" ,"NIM" ,"Nilai Tugas" ,"Nilai UTS" ,"Nilai UAS" ,"Nilai Akhir" ])
+ 3.tabelNama = PrettyTable(["No" ,"Nama" ,"NIM" ,"Nilai Tugas" ,"Nilai UTS" ,"Nilai UAS" ,"Nilai Akhir" ])
 a = 0
 (Deklarasi list)untuk menginput data yang dimasukkan kedalam list. input tabelNama untuk memanggil. sedangkan PrettyTable berfungsi untuk membungkus semua list. Deklarasi *a = 0* untuk membuat nomor pada isi table.
 
-Membuat program perulangan menggunakan py while True:
+ 4.Membuat program perulangan menggunakan py while True:
 
  a += 1
  b = input("Masukkan Nama : ")
